@@ -9,8 +9,15 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      selectedFlat: flats[0],
+      flats
+    };
+  }
 
-    }
+  render() {
+    return (
+
+      )
   }
 }
 
