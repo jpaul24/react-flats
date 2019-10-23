@@ -16,7 +16,13 @@ class App extends Component {
 
   render() {
     return (
-
+      <div>
+        <FlatList
+          flats={this.state.flats}
+          selectedFlat={this.state.selectedFlat}
+          selectFlat={this.state.selectFlat}
+        />
+      </div>
       )
   }
 }
